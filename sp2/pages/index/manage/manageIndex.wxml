@@ -1,2 +1,8 @@
 <!--pages/index/manage/manageIndex.wxml-->
-<text>pages/index/manage/manageIndex.wxml</text>
+<view class="container">
+  <view>{{jwb1}}</view>
+  <button bindtap='click1'>测试</button>
+  <button wx:if='{{ifa}}' bindtap='click2'>管理</button>
+
+ 
+</view>
